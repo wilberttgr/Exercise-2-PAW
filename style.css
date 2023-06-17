@@ -1,0 +1,54 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+}
+
+.button-container .button i {
+    margin-right: 5px;
+}

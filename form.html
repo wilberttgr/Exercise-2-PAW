@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Nonton Dewa 19</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="tanggal">Tanggal Nonton</label><br>
+            <input type="date" id="tanggal"><br><br>
+            <label for="jumlah-tiket">Jumlah Tiket</label><br>
+            <select id="jumlah-tiket">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamatmu disini" name="alamat" id="alamat" cols="30"
+                rows="5"></textarea><br><br>
+            <label for="pesan">Pesan Tambahan</label><br>
+            <textarea placeholder="Tulis pesan tambahan jika ada" name="pesan" id="pesan" cols="30"
+                rows="5"></textarea><br><br>
+            <div class="button-container">
+                <button type="submit" onclick="kirimData()" class="button"><i
+                        class="fas fa-paper-plane"></i>Kirim</button>
+                <a href="index.html" class="button"><i class="fas fa-arrow-left"></i>Kembali</a>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
